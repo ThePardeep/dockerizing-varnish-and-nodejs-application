@@ -16,31 +16,5 @@ services:
 
 
 
-      # version: "2"
-
-      # networks:
-      #   localnetwork:
-      #     driver: bridge
-      #     ipam:
-      #       driver: default
-      #       config:
-      #         - subnet: 163.11.1.0/24
-      #           gateway: 163.11.1.1
-      # services:
-      #   nodeapp:
-      #     container_name: nodeapp
-      #     build: .
-      #     networks:
-      #       - localnetwork
-      #     ports:
-      #       - "2020:2020"
-      #   varnish:
-      #     build: ./varnish
-      #     container_name: varnish
-      #     networks:
-      #       - localnetwork
-      #     ports:
-      #       - "3000:80"
-      #     depends_on:
-      #       - nodeapp
+   
       
